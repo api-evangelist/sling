@@ -1,8 +1,16 @@
 aid: sling
-name: Sling
-description: Sling is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Sling (Morse)
+description: >-
+  Sling Money — rebranded to Morse in 2026 — is a consumer stablecoin money
+  transfer app built by Avian Labs that lets people receive, hold, spend,
+  invest, send, and convert US dollars across 150+ countries. It settles
+  near-instant, low-fee cross-border payments over the Solana blockchain using
+  reserve-backed stablecoins (USDC, EURC, USDP), and pairs the app with a
+  prepaid Visa card and US stock/ETF investing. The company is regulated as a
+  MiCAR-authorised crypto-asset service provider (AFM, Netherlands), a
+  FinCEN-registered US Money Services Business, and is ISO/IEC 27001:2022
+  certified. It is a consumer product with no public developer API surface; this
+  profile captures its published identity, security, and compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/sling/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,37 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand:
+  from: Sling Money
+  to: Morse
+  parent: Avian Labs
+  note: sling.money 301-redirects to morsemoney.com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://morsemoney.com/og-default.png
 tags:
 - Company
+- Fintech
+- Payments
+- Money Transfer
+- Cross-Border Payments
+- Remittances
+- Stablecoins
+- Cryptocurrency
+- Solana
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +57,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sling.money
+  url: https://morsemoney.com
+- type: Blog
+  url: https://morsemoney.com/blog
+- type: Support
+  url: https://support.sling.money
+- type: StatusPage
+  url: https://status.morsemoney.com
+- type: GitHubOrganization
+  url: https://github.com/avianlabs
+- type: Pricing
+  url: https://morsemoney.com/fees
+- type: SignUp
+  url: https://morsemoney.com/download
+- type: TermsOfService
+  url: https://morsemoney.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://morsemoney.com/legal/privacypolicy-cookienotice
+- type: Compliance
+  url: https://morsemoney.com/legal/regulatory-compliance
+- type: TrustCenter
+  url: security/sling-trust-center.yml
+- type: Security
+  url: https://morsemoney.com/legal/regulatory-compliance
+- type: VulnerabilityDisclosure
+  url: security/sling-vulnerability-disclosure.yml
+- type: SecurityTxt
+  url: well-known/sling-security.txt
+- type: WellKnown
+  url: well-known/sling-well-known.yml
+- type: DomainSecurity
+  url: security/sling-domain-security.yml
+- type: Conformance
+  url: conformance/sling-conformance.yml
+- type: LLMsTxt
+  url: llms/sling-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

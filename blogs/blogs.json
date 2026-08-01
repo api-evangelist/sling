@@ -1,0 +1,14 @@
+{
+  "repo": "sling",
+  "feeds": [
+    {
+      "source": "https://morsemoney.com",
+      "feed_url": "https://morsemoney.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:38:58Z"
+}

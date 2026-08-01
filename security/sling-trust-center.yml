@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://morsemoney.com/legal/regulatory-compliance
+certifications:
+- ISO/IEC 27001:2022
+licenses:
+- authority: Dutch Authority for Financial Markets (AFM)
+  entity: Avian Labs Netherlands B.V.
+  license: Crypto-asset service provider authorisation under Art. 63(9) MiCAR
+  registration: '41000005'
+- authority: FinCEN (US)
+  entity: Avian Labs, Inc.
+  license: Registered Money Services Business (MSB)
+  registration: '31000327638265'
+- authority: NMLS (US)
+  entity: Avian Labs USA, Inc.
+  license_id: '2639252'
+iso_27001:
+  certified_entity: Avian Labs Inc. and group entities
+  standard: ISO/IEC 27001:2022
+  certification_date: '2024-07-30'
+  certificate_number: IA-2024-07-30-01
+  scope: Information Security Management System (ISMS)
+evidence:
+- source: https://morsemoney.com/legal/regulatory-compliance
+  keywords: [iso 27001, mi, msb, mica, information security management system]

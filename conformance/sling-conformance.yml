@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://morsemoney.com/legal/regulatory-compliance
+note: >-
+  Sling Money (now Morse, an Avian Labs product) is a consumer stablecoin money
+  transfer app with no public developer API. Conformance here reflects the
+  company's published regulatory and security posture, not API-level standards.
+standards:
+- id: iso-27001-2022
+  conforms: true
+  evidence: 'ISO/IEC 27001:2022 certified (cert IA-2024-07-30-01, 30 July 2024)'
+- id: mica
+  conforms: true
+  evidence: MiCAR crypto-asset service provider authorisation (AFM, reg 41000005)
+- id: fincen-msb
+  conforms: true
+  evidence: FinCEN Registered Money Services Business (reg 31000327638265)
+- id: gdpr
+  conforms: true
+  evidence: EU-operating entity with published Privacy Policy & Cookie Notice
+- id: oauth2
+  conforms: false
+  evidence: no public API / OAuth surface published
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API published
